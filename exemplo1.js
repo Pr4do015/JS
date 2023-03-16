@@ -10,7 +10,7 @@ if (idade){
 // if considera verdadeiro != ''/[]/{},0, != null, true 
 
 function verificaIdade(valor){
-    if (parseInt(valor) > 18){
+    if (parseInt(valor) >= 18){
         alert("Já pode tirar sua carta seu babaca")
         document.innerHTML = "Já pode tirar sua carta seu babaca"
     } else {
