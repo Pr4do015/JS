@@ -12,7 +12,7 @@ function enviarNota(){
     function verificanota(valor){
         if (parseInt(valor) <= 3){
             alert("Reprovado HAHAHAHAHAHAHAHAHAHAHAH")
-            document.getElementById('resultado').innerText ="Reprovado HAHAHAHAHAHAHAHAHAHAHAH"
+            document.getElementById('resultado').innerText ="Reprovado gay HAHAHAHAHAHAHAHAHAHAHAH"
         }    
         else if(parseInt(valor) >3 && parseInt(valor) <5){
             alert("Recuperação HAHAHAHHAHHAHAHAHAHAHHAHA")
