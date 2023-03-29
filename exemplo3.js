@@ -1,7 +1,7 @@
 function enviarAcertos(){
     
     var numeroAcertos = parseInt(document.getElementById("acertos").value);
-    var zero = document.getElementById("acertos").value;
+    
 
     if (numeroAcertos <0 || numeroAcertos >6){
         alert("ERRO, O valor informado deve estar entre 0 e 6");
